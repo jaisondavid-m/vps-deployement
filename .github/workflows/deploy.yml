@@ -13,7 +13,7 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3 #it is like package
         with:
           host: ${{ secrets.VPS_HOST }}
-          username: root
+          username: jaison
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
             cd ~/vps-deployment
