@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const API = import.meta.env.VITE_API_URL;
 
 export default function App() {
-  // Entries (full CRUD demo)
+  
   const [entries, setEntries] = useState([]);
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
