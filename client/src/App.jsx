@@ -144,7 +144,7 @@ export default function App() {
 
       <div className="container">
 
-        <h1>Go Gin GORM CRUD</h1>
+        <h1>Fullstackt Deployment in VPS</h1>
 
         <form onSubmit={createUser}>
           <input
