@@ -338,10 +338,10 @@ export default function App() {
       <div className="shell">
 
         <div className="statusbar">
-        <h1>Testing jenkings</h1>
+        {/* <h1>Testing jenkings</h1> */}
           <div className="brand">
             <span className="dot-live"></span>
-            deploy@vps :: live
+            deploy@vps :: live - Test
           </div>
           <div className="services">
             <span><span className="ok"></span>docker</span>
